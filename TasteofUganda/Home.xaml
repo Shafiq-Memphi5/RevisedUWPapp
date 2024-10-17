@@ -28,7 +28,7 @@
                             MaxWidth="270">
                     <HubSection.HeaderTemplate>
                         <DataTemplate>
-                            <TextBlock Text="A Featured Dish"
+                            <TextBlock Text="🍟A Featured Dish"
                                        Foreground="#ffd700"
                                        FontSize="24"
                                        FontWeight="Bold"/>
@@ -51,10 +51,10 @@
                     </DataTemplate>
                 </HubSection>
                 <HubSection Margin="40,0,0,0"
-                            MaxWidth="270">
+                            MaxWidth="310">
                     <HubSection.HeaderTemplate>
                         <DataTemplate>
-                            <TextBlock Text="Today's Special Drink"
+                            <TextBlock Text="🍇Today's Special Drink"
                                        Foreground="#ffd700"
                                        FontSize="24"
                                        FontWeight="Bold"/>
@@ -80,7 +80,7 @@
                             MaxWidth="270">
                     <HubSection.HeaderTemplate>
                         <DataTemplate>
-                            <TextBlock Text="A Popular Dessert"
+                            <TextBlock Text="🍦A Popular Dessert"
                                        Foreground="#ffd700"
                                        FontSize="24"
                                        FontWeight="Bold"/>
@@ -102,7 +102,9 @@
                         </StackPanel>
                     </DataTemplate>
                 </HubSection>
+                
             </Hub>
+            <ScrollViewer/>
         </StackPanel>
     </Grid>
 </Page>
